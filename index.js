@@ -10,6 +10,10 @@
 // }
 // console.log(nomDeMaFonction(On remplace le paramètre par ce qu'on désire)) //
 
+function multiplication (a, b) {
+    return a*b
+  }
+  console.log(multiplication(2,3))
 
 //----------------------------------------------------------------------------------------------//
 // EXERCICE 2
