@@ -10,10 +10,10 @@
 // }
 // console.log(nomDeMaFonction(On remplace le paramètre par ce qu'on désire)) //
 
-function multiplication (a, b) {
-    return a*b
+function sumAndMultip (a, b) {
+    return a+b*2
   }
-  console.log(multiplication(2,3))
+  console.log(sumAndMultip(2,3))
 
 //----------------------------------------------------------------------------------------------//
 // EXERCICE 2
@@ -24,7 +24,11 @@ function multiplication (a, b) {
 // const monTableau = [1, 2, 3]
 // console.log(monTableau[0]) // 1
 
-
+const myTable = [1,2,3]
+function indexOfMyTable (table) {
+    return table[0]
+}
+console.log(indexOfMyTable(myTable))
 
 //----------------------------------------------------------------------------------------------//
 // EXERCICE 3
