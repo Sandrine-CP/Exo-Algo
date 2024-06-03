@@ -40,7 +40,13 @@ console.log(indexOfMyTable(myTable))
 // monTableau.pop()
 // console.log(monTableau) // [1, 2]
 
+const table = [1,2,3,4,5,6]
 
+function suppressLast(table) {
+    table.pop(); return table;
+}
+const newTable = suppressLast(table)
+console.log(newTable)
 
 //----------------------------------------------------------------------------------------------//
 // EXERCICE 4
