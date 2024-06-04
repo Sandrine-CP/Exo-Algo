@@ -83,7 +83,15 @@ console.log(sumTable(myTable))
 // console.log(monTableauInverse) // ["o", "l", "l", "e", "H"]
 //Maintenant que la string est inversée il faut la remettre en string avec la méthode join().
 
+const myString = "Hello"
 
+function stringToTableReverse (stringToCall) {
+    const myTable = myString.split("");
+    const myReverseTable = myTable.reverse()
+    console.log(myReverseTable);
+
+}
+stringToTableReverse(myString)
 //----------------------------------------------------------------------------------------------//
 
 // EXERCICE 6
