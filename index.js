@@ -59,7 +59,16 @@ console.log(newTable)
 //   console.log(monTableau[i]) // 1, 2, 3
 // }
 
+const myTable = [1,2,3]
 
+function sumTable (tableToCall) {
+    let result = 0
+    for (let i = 0; i < tableToCall.length; i++) {
+    result = result + tableToCall[i];
+    }
+    return result;
+}
+console.log(sumTable(myTable))
 
 //----------------------------------------------------------------------------------------------//
 
