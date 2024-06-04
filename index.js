@@ -101,7 +101,12 @@ stringToTableReverse(myString)
 // const monTableau = [1, 2, 3]
 // console.log(Math.max(...monTableau)) // 3
 
+const myTable = [1,2,3]
 
+function mathMaxTable (tableToCall) {
+    console.log(Math.max(...tableToCall));
+}
+mathMaxTable(myTable)
 
 //----------------------------------------------------------------------------------------------//
 
