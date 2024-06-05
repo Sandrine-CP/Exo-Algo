@@ -117,7 +117,12 @@ mathMaxTable(myTable)
 // const monTableau = [1, 2, 3]
 // console.log(Math.min(...monTableau)) // 1
 
+const myTable = [1,2,3]
 
+function mathMinTable (tableToCall) {
+    console.log(Math.min(...tableToCall));
+}
+mathMinTable(myTable)
 
 //----------------------------------------------------------------------------------------------//
 
