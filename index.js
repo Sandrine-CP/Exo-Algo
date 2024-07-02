@@ -138,7 +138,17 @@ mathMinTable(myTable)
 //   return element !== "e" && element !== "o"
 // })
 
+const myString = "Hello";
 
+function tableWithoutVoyels(stringToCall) {
+  const myArray = stringToCall.split("");
+  const myFilteredArray = myArray.filter((element) => {
+    return element !== "e" && element !== "o";
+  });
+  return myFilteredArray;
+}
+
+console.log(tableWithoutVoyels(myString));
 
 //----------------------------------------------------------------------------------------------//
 
